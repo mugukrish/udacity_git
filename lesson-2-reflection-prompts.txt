@@ -13,17 +13,35 @@ Flexibility to choose what to commit and what not to commit.
 --------------------------------------
 
 
-
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+We can add only the files that was logically changed to the staging area!!
+
+-------------------------------
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When testing with experimental stuff with out project we can use branch so that 
+The working project in the master directory id not affected!!!
+
+--------------------------------- 
+
 How do the diagrams help you visualize the branch structure?
+
+It is easy to find out the branches created at some point of time
+
+-----------------------------
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+When we merge two branches, all the files will be merged together. Representing it in 
+A diagram will make it easy for you to know where the branches were made.
+
+----------------------------------
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
